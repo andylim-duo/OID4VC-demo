@@ -26,6 +26,19 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [5000, 5001, 5002],
 
+	// Auto-label the forwarded ports
+	"portsAttributes": {
+		"5000": {
+		  	"label": "oidc4vc-agent"
+		},
+		"5001": {
+		  	"label": "oidc4vci-demo-frontend"
+		},
+		"5002": {
+		  	"label": "oidc4vp-demo-frontend"
+		}
+	},
+
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": ".devcontainer/setup.sh"
 
