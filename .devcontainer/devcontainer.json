@@ -18,7 +18,7 @@
 	"forwardPorts": [5000, 5001, 5002],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "./setup.sh",
+	"postCreateCommand": "./setup.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
