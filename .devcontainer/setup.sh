@@ -27,7 +27,7 @@ echo "--> ngrok config add-authtoken <token>"
 # Configure and build Sphereon demo containers
 echo -e "\n--> Configuring Sphereon containers ...\n"
 cd /workspaces/OID4VC-demo/docker/compose/build
-./install-configs.sh sphereon http://localhost:5000
+./install-configs.sh sphereon http://localhost:5500
 
 echo -e "\n--> Building Sphereon containers ...\n"
 docker compose build

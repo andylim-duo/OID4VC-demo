@@ -14,7 +14,7 @@ services:
       - "./agent/conf:/opt/oid4vc-demo/packages/agent/conf:ro"
       - "./agent/.env.local:/opt/oid4vc-demo/packages/agent/.env.local:ro"
     ports:
-      - "5000:5000"
+      - "5500:5500"
 
   oid4vci-demo-frontend:
     container_name: oid4vci-demo-frontend

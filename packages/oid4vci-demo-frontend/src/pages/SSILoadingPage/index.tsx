@@ -17,7 +17,7 @@ const SSILoadingPage: React.FC = (): ReactElement => {
         // Simulating a verifying process here that navigates to the next step after 5 seconds
         setTimeout(async (): Promise<void> => {
             await flowRouter.nextStep()
-        }, 5000)
+        }, 5500)
     }, []);
 
     return <div style={{display: 'flex',  height: "100vh", width: '100vw',  ...(isTabletOrMobile && { overflowX: "hidden", ...(pageConfig.mobile?.backgroundColor && { backgroundColor: pageConfig.mobile.backgroundColor }) })}}>

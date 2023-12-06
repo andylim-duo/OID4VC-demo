@@ -24,11 +24,11 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [5000, 5001, 5002],
+	"forwardPorts": [5500, 5001, 5002],
 
 	// Auto-label the forwarded ports
 	"portsAttributes": {
-		"5000": {
+		"5500": {
 		  	"label": "oidc4vc-agent"
 		},
 		"5001": {

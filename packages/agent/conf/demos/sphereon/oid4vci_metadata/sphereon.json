@@ -2,8 +2,8 @@
   "correlationId": "sphereon",
   "overwriteExisting": true,
   "metadata": {
-    "credential_issuer": "http://internet.or.LAN.host:5000/sphereon",
-    "credential_endpoint": "http://internet.or.LAN.host:5000/sphereon/credentials",
+    "credential_issuer": "http://192.168.1.34:5500",
+    "credential_endpoint": "http://192.168.1.34:5500/credentials",
     "display": [
       {
         "name": "Sphereon International",
@@ -56,7 +56,7 @@
             "text_color": "#FFFFFF",
             "background_color": "#3a2d2d",
             "logo": {
-              "url": "https://i.ibb.co/kJm9Mpx/Screenshot-2023-08-18-000155.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "White shield with text Government of Kakapo and subtitle Ministry of Foreign Affairs."
             }
           },
@@ -67,7 +67,7 @@
             "text_color": "#FFFFFF",
             "background_color": "#3a2d2d",
             "logo": {
-              "url": "https://i.ibb.co/kJm9Mpx/Screenshot-2023-08-18-000155.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "White shield with text Government of Kakapo and subtitle Ministry of Foreign Affairs."
             }
           }
@@ -95,11 +95,11 @@
             "description": "Demo credential",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           },
@@ -109,11 +109,11 @@
             "description": "Sphereon guest credential for demo purposes.",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           },
@@ -123,11 +123,11 @@
             "description": "Sphereon gast credential wordt uitgegeven voor demo doeleinden.",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           }
@@ -227,11 +227,11 @@
             "description": "Membership Example credential",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           },
@@ -241,11 +241,11 @@
             "description": "Sphereon Membership Example credential for demo purposes.",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           },
@@ -255,11 +255,11 @@
             "description": "Sphereon voorbeeld lidmaatschap credential wordt uitgegeven voor demo doeleinden.",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           }
@@ -359,11 +359,11 @@
             "description": "Verified employee credential",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           },
@@ -373,11 +373,11 @@
             "description": "Verified Employee credential for demo purposes.",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           },
@@ -387,11 +387,11 @@
             "description": "Geverifieerde medewerker credential wordt uitgegeven voor demo doeleinden.",
             "text_color": "#FFFFFF",
             "background_image": {
-              "url": "https://i.ibb.co/kmfrH4F/tulips.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Black and white photo of tulips with one red tulip"
             },
             "logo": {
-              "url": "https://i.ibb.co/NWQQ9kt/sphereon-logo.png",
+              "url": "https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/images/JFF_LogoLockup.png",
               "alt_text": "Red square depicting Sphereon logo."
             }
           }

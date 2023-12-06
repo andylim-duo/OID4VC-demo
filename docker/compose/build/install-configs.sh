@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/zsh
+alias sed='gsed'
 
 ecosystem_name=$1
 agent_host_address=$2

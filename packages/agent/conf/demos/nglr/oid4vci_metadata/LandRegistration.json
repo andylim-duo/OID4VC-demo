@@ -2,8 +2,8 @@
   "correlationId": "nglr",
   "overwriteExisting": true,
   "metadata": {
-    "credential_issuer": "http://192.168.2.90:5000",
-    "credential_endpoint": "http://192.168.2.90:5000/credentials",
+    "credential_issuer": "http://192.168.2.90:5500",
+    "credential_endpoint": "http://192.168.2.90:5500/credentials",
     "display": [
       {
         "name": "Lagos Land Registration",

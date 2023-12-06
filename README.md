@@ -104,7 +104,7 @@ It's located here: `docker/compose/build/install-configs.sh <ecosystem> <agent h
 software. For example:
 
 ```bash
-./install-configs.sh sphereon http://192.168.x.x:5000
+./install-configs.sh sphereon http://192.168.x.x:5500
 ```
 
 The install-configs.sh script will set up the environment for your containers using the .env.examples files from
@@ -184,7 +184,7 @@ To build and run the Docker containers, execute the following commands from with
 ```cmd
 cd .\OID4VC-demo\docker\compose\build
 docker compose build
-docker run --name ubuntu-temp --rm -v C:/<path>/OID4VC-demo:/OID4VC-demo -w /OID4VC-demo/docker/compose/build ubuntu /bin/bash -c "apt update && apt install -y jq && ./install-configs.sh 'sphereon' 'http://192.168.x.x:5000'"
+docker run --name ubuntu-temp --rm -v C:/<path>/OID4VC-demo:/OID4VC-demo -w /OID4VC-demo/docker/compose/build ubuntu /bin/bash -c "apt update && apt install -y jq && ./install-configs.sh 'sphereon' 'http://192.168.x.x:5500'"
 docker compose up -d
 ```
 
