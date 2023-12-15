@@ -51,6 +51,43 @@
       {
         "display": [
           {
+            "name": "Acme Corp. Driver's License",
+            "description": "Lets you drive in ACME world (JWT)",
+            "text_color": "#FFFFFF",
+            "background_color": "#1763c1",
+            "logo": {
+              "url": "https://static.wikia.nocookie.net/fictionalcompanies/images/c/c2/ACME_Corporation.png/revision/latest?cb=20230628025220",
+              "alt_text": "Red, magenta and yellow vertical lines with 3 black dots and the text JFF, depicting the Jobs For the Future logo."
+            }
+          },
+          {
+            "locale": "en-US",
+            "name": "Acme Corp. Driver's License",
+            "description": "Lets you drive in ACME world (JWT)",
+            "text_color": "#FFFFFF",
+            "background_color": "#1763c1",
+            "logo": {
+              "url": "https://static.wikia.nocookie.net/fictionalcompanies/images/c/c2/ACME_Corporation.png/revision/latest?cb=20230628025220",
+              "alt_text": "Red, magenta and yellow vertical lines with 3 black dots and the text JFF, depicting the Jobs For the Future logo."
+            }
+          }
+        ],
+        "id": "Iso18013DriversLicenseCredentialJwt",
+        "types": [
+          "VerifiableCredential",
+          "Iso18013DriversLicenseCredential"
+        ],
+        "format": "jwt_vc_json",
+        "cryptographic_binding_methods_supported": [
+          "did:key"
+        ],
+        "cryptographic_suites_supported": [
+          "EdDSA"
+        ]
+      },
+      {
+        "display": [
+          {
             "name": "Permanent Resident Card",
             "description": "Government of Kakapo (JWT)",
             "text_color": "#FFFFFF",
@@ -541,6 +578,13 @@
             "OpenBadgeCredential"
           ],
           "template_path": "OpenBadgeCredential.hbs",
+          "format": "jwt_vc_json"
+        },
+        {
+          "credential_types": [
+            "Iso18013DriversLicenseCredential"
+          ],
+          "template_path": "Iso18013DriversLicenseCredential.hbs",
           "format": "jwt_vc_json"
         },
         {
